@@ -1,0 +1,21 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: lightblue;
+}
+label, input{
+    width: 100px;
+}
+div{
+    padding: 10px;
+}
+input{
+    margin-left: 10px;
+}
+.error-message{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
